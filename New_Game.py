@@ -1,5 +1,7 @@
 
 class New_Game():
+    def __init__(self):
+        print('Welcome in my Game')
     # A Function that don't repeat the element in the new list
     def no_repait(self,sentence):
         w = sentence.split(' ')
@@ -28,7 +30,7 @@ class New_Game():
         print(new_out3)
 
 c1 = New_Game()
-c1.no_repait('you you are awesome')
+
 
 
 # no_repait('my name is is is Bari')  # my name is Bari
