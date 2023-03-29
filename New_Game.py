@@ -1,3 +1,4 @@
+# A Function that don't repeat the element in the new list
 def no_repait(sentence):
     w=sentence.split(' ')
     new_Out=[]
@@ -6,5 +7,6 @@ def no_repait(sentence):
             continue
         else:
             new_Out.append(i)
-    print(new_Out)
-no_repait('My name is is is Bari')
+    print(' '.join(new_Out))      # list to str
+
+no_repait('my name is is is Bari')  # my name is Bari
