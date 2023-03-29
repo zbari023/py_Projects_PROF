@@ -19,3 +19,12 @@ def w_count(names):
 
     print(new_out2)
 w_count(['zaid' ,'Bari' ,'Ibrahim'])     # [4, 4, 7]
+
+# new function that give us the nummbers between 1 and 100 which it divided on x ,y
+def div_mod(x,y):
+    new_out3 = []
+    for i in range(101):
+        if (i%x) == 0 and (i%y) == 0:
+            new_out3.append(i)
+    print(new_out3)
+div_mod(2,5)           # [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
